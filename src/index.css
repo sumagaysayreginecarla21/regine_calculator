@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  }
+
+html {
+min-width: 320px;
+min-height: 100%;
+}
+
+body {
+margin: 0;
+min-width: 320px;
+min-height: 100vh;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+cursor: pointer;
+-webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible {
+outline: 2px solid #e879f9;
+outline-offset: 3px;
+}
+
+::selection {
+background: #e879f9;
+color: #1e103b;
+}
